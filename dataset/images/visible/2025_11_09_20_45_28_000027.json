@@ -1,0 +1,40 @@
+{
+  "version": "3.3.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "volleyball",
+      "score": 0.9607540369033813,
+      "points": [
+        [
+          270.97821044921875,
+          7.224555969238281
+        ],
+        [
+          301.52032470703125,
+          7.224555969238281
+        ],
+        [
+          301.52032470703125,
+          38.857261657714844
+        ],
+        [
+          270.97821044921875,
+          38.857261657714844
+        ]
+      ],
+      "group_id": null,
+      "description": null,
+      "difficult": false,
+      "shape_type": "rectangle",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "2025_11_09_20_45_28_000027.png",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 640,
+  "description": ""
+}

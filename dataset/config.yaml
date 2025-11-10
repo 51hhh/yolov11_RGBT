@@ -1,0 +1,30 @@
+# dataset/
+# ├── images/
+# │   ├── visible/    # Store  visible light images
+# │   │   ├── image1.jpg  
+# │   │   └── image2.jpg
+# │   │   └── ...      
+# │   └── infrared/  #  Store  visible light images
+# │       ├── image1.jpg   
+# │       └── image2.jpg  
+# │       └── ...         
+# └── labels/
+#     ├── visible/  # Store  visible light labels
+#     │   ├── image1.txt   
+#     │   └── image2.txt 
+#     └── infrared/  # Store  infrared light labels
+#         ├── image1.txt
+#         └── image2.txt    
+        
+
+# VEDAI.yaml
+
+train:  dataset\train.txt  # 16551 images
+val:  dataset\val.txt # 4952 images
+
+# number of classes
+nc: 1
+
+# class names
+names: ['volleyball']
+

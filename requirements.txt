@@ -8,13 +8,13 @@ Pillow>=7.1.2
 PyYAML>=5.3.1
 requests>=2.23.0
 scipy>=1.4.1
-#torch>=1.7.0   # 建议单独安装
+#torch>=1.7.0   
 #torchvision>=0.8.1
 tqdm>=4.64.0
 thop
 # numpy==1.24
 
-# Util ------------------------------------------- Attention mechanism related  注意力机制相关
+# Util ------------------------------------------- Attention mechanism related  
 einops>=0.7
 timm>=0.9
 efficientnet-pytorch>=0.7.1
