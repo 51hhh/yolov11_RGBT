@@ -6,13 +6,13 @@ if __name__ == '__main__':
     model = YOLO('ultralytics/cfg/models/11-RGBT/yolo11n-RGBT-midfusion.yaml')
     # model.info(True,True)
     # model.load('yolov8n.pt') # loading pretrain weights
-    model.train(data=R'./dataset/config.yaml',
+    model.train(data=R'/home/edzhao/yolo8/yolov5/yolov11_RGBT/dataset/config.yaml',
                 cache=False,
                 imgsz=640,
-                epochs=300,
-                batch=16,
+                epochs=600,
+                batch=45,
                 close_mosaic=10,
-                workers=2,
+                workers=5,
                 device='0',
                 # device='cpu',
                 optimizer='SGD',  # using SGD
