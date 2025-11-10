@@ -19,8 +19,10 @@
 
 # VEDAI.yaml
 
-train:  dataset\train.txt  # 16551 images
-val:  dataset\val.txt # 4952 images
+# train:  
+# val:  
+train:  D:\robotmaster\2026\RGBD\yolov11_RGBT\dataset\train.txt  
+val:  D:\robotmaster\2026\RGBD\yolov11_RGBT\dataset\val.txt 
 
 # number of classes
 nc: 1

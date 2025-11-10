@@ -6,7 +6,7 @@ if __name__ == '__main__':
     model = YOLO('ultralytics/cfg/models/11-RGBT/yolo11n-RGBT-midfusion.yaml')
     # model.info(True,True)
     # model.load('yolov8n.pt') # loading pretrain weights
-    model.train(data=R'ultralytics/cfg/datasets/LLVIP.yaml',
+    model.train(data=R'./dataset/config.yaml',
                 cache=False,
                 imgsz=640,
                 epochs=300,
@@ -14,6 +14,7 @@ if __name__ == '__main__':
                 close_mosaic=10,
                 workers=2,
                 device='0',
+                # device='cpu',
                 optimizer='SGD',  # using SGD
                 # lr0=0.002,
                 # resume='', # last.pt path
