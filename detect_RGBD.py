@@ -64,7 +64,7 @@ align = rs.align(align_to)
 cv2.namedWindow("预览 (按'q'退出)", cv2.WINDOW_AUTOSIZE)
 
 # 加载YOLOv11模型
-model_path = r"D:/robotmaster/2026/RGBD/LLVIP/LLVIP-yolo11n-RGBT-midfusion-15/weights/best.pt"  # 替换为你的模型路径
+model_path = r"D:/robotmaster/2026/RGBD/LLVIP/LLVIP-yolo11n-RGBT-midfusion-16/weights/best.pt"  # 替换为你的模型路径
 model = YOLO(model_path)
 
 # 初始化帧率计算
